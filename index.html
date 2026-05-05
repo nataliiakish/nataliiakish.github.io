@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наталія Киш — Практичний психолог</title>
+    <style>
+        :root {
+            --bg-color: #fcf8ff;
+            --card-bg: #ffffff;
+            --accent-pink: #f4c2c2;
+            --accent-violet: #d1b3ff;
+            --text-main: #3d2f4d;
+            --text-muted: #6e5e80;
+            --btn-bg: linear-gradient(135deg, #e8c5ff 0%, #ffd1df 100%);
+            --btn-hover: linear-gradient(135deg, #d4a2fc 0%, #fca8c1 100%);
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: var(--bg-color);
+            color: var(--text-main);
+            background-image: radial-gradient(circle at 10% 20%, rgba(243, 211, 255, 0.3) 0%, transparent 40%),
+                              radial-gradient(circle at 90% 80%, rgba(255, 211, 225, 0.4) 0%, transparent 40%);
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 40px 30px;
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(220, 190, 240, 0.25);
+            text-align: center;
+            max-width: 360px;
+            width: 100%;
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            margin: 20px;
+        }
+
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 8px 20px rgba(210, 160, 240, 0.3);
+            background: var(--btn-bg);
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 26px;
+            margin: 10px 0 6px;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+            color: #2b1f3a;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #b18bd3;
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+
+        .description {
+            font-size: 15px;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--btn-bg);
+            color: var(--text-main);
+            text-decoration: none;
+            padding: 14px;
+            margin: 12px 0;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 15px;
+            box-shadow: 0 4px 15px rgba(226, 190, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .links a:hover {
+            background: var(--btn-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(226, 190, 255, 0.35);
+        }
+
+        .footer {
+            font-size: 12px;
+            color: #b5a4c4;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Аватарка (можна замінити посиланням на ваше фото) -->
+        <img class="profile-img" src="https://placeholder.com" alt="Наталія Киш">
+        
+        <h1>Наталія Киш</h1>
+        <div class="subtitle">Практичний психолог</div>
+        
+        <p class="description">
+            Допомагаю знайти гармонію з собою, подолати тривожність та пережити складні життєві моменти. Індивідуальні консультації.
+        </p>
+
+        <div class="links">
+            <!-- Telegram -->
+            <a href="https://t.me" target="_blank">Написати у Telegram</a>
+            
+            <!-- WhatsApp -->
+            <a href="https://wa.me" target="_blank">Написати у WhatsApp</a>
+            
+            <!-- Телефон Німеччина -->
+            <a href="tel:+4917642996617">Зателефонувати (+49)</a>
+        </div>
+
+        <div class="footer">Бережіть себе та своє ментальне здоров'я ✨</div>
+    </div>
+
+</body>
+</html>
